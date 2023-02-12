@@ -134,9 +134,13 @@ try {
 
 try {
     function calHt() {
-        var ht = document.body.scrollHeight
+        try {
+            var ht = document.body.scrollHeight
 
-        $("#Loginfooter").style.top = (ht) + "px"
+            $("#Loginfooter").style.top = (ht) + "px"
+        } catch (error) {
+
+        }
     }
     let i = 0
     const int = setInterval(() => {

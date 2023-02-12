@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header id="header">
+        <div class="container">
+            <div class="flex items-center justify-between">
+                <!-- logo -->
+                <a href="./" class="logo">
+                    <img src="./img/logo.png" alt="site logo">
+                </a>
+                <!-- nav items -->
+                <ul class="flex flex-col items-center gap-5 navItems lg:flex-row">
+                    <li>
+                        <a target="#slide2">O QUE É O EXA?</a>
+                    </li>
+                    <li>
+                        <a target="#slide4">OBJETIVO
+                        </a>
+                    </li>
+                    <li>
+                        <a target="#slide5">CONTEÚDOS
+                        </a>
+                    </li>
+                    <li>
+                        <a target="#slide8">TESTEMUNHOS</a>
+                    </li>
+                    <li>
+                        <a target="#slide9">SUBSCRIÇÃO</a>
+                    </li>
+                    <li>
+                        <a class="btn" href="">Entrar</a>
+                    </li>
+                </ul>
+                <div class="navtoggle lg:hidden">
+                    <span class="open">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </span>
+                    <span class="close">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </span>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--/ header -->
+
+    <!-- hero -->
+    <section id="hero" class="py-20 lg:py-28 pt-36 lg:pt-44 ">
+        <div class="container">
+            <div class="grid items-center gap-5 lg:grid-cols-2 lg:gap-14">
+                <div class="lft ">
+                    <img src="./img/likePart.png" alt="" class="like">
+                    <img class="w-full" src="./img/herolft.png" alt="">
+                </div>
+                <div class="rght lg:pt-10">
+                    <h3>
+                        Diz adeus ao papel com o EXA
+
+                    </h3>
+                    <p>
+
+                        A app que te ajuda a preparar para os Exames Nacionais
+
+                    </p>
+                    <div class="mt-10 text-center lg:mt-0 lg:text-right">
+                        <a href="#" class="btn"><span>
+                                Experimenta <br> uma semana grátis!
+                            </span>
+                        </a>
+                    </div>
+                    <div class="grid gap-10 mt-10 lg:gap-5 pkg lg:grid-cols-3">
+                        <div style="--color:#00216E" class="crd basic">
+                            <p class="ttl">Básico</p>
+                            <p class="des">
+                                1 Disciplina | 5 exames
+                                1 Mês
+                            </p>
+                            <p class="oldPrice">7,99€/mês
+                            </p>
+                            <a href="#" class="curntPrice">4,99€/mês*
+                            </a>
+                        </div>
+                        <div style="--color:#70AD47" class="crd basic">
+                            <p class="ttl">Premium</p>
+                            <p class="des">
+                                2 Disciplinas | 20 exames | 1 Mês
+
+                            </p>
+                            <p class="oldPrice">14,99€/mês*
+
+
+                            </p>
+                            <a href="#" class="curntPrice">4,99€/mês*
+                            </a>
+                        </div>
+                        <div style="--color:#0155D1" class="crd basic">
+                            <p class="ttl">Ilimitado
+                            </p>
+                            <p class="des">
+                                Todas as Disciplinas | Todos os exames | 1 Mês
+
+                            </p>
+                            <p class="oldPrice">29,99€/mês
+
+                            </p>
+                            <a href="#" class="curntPrice">24,99€/mês*
+
+                            </a>
+                        </div>
+                    </div>
+                    <p class="!mt-10 smTxt">*Oferta limitada aos primeiros 1,000 alunos a efetuar registo no EXA
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- /hero -->
+    <!-- slide 2 -->
+    <section id="slide2" class="pt-10 lg:pt-18 scrollTo">
+        <div class="container w-full max-w-full">
+            <div class="justify-end lg:flex">
+                <div class="w-full lft">
+                    <div class="max-w-4xl mx-auto text-center">
+                        <h3 class="text-center sectitle">O QUE É O EXA?
+                        </h3>
+                        <p class="mt-10 text-center bigTtl">A app que te permite <span>praticar para os Exames
+                                Nacionais</span>
+                            de
+                            forma
+                            <span>rápida</span> e
+                            intuitiva.
+                        </p>
+                        <p class="mt-10 text-center md:text-lg">
+                            Pratica com exames anteriores (e correções!) e vê o teu progresso em tempo real. Escolhe as
+                            tuas
+                            disciplinas e começa agora!
+                        </p>
+                        <a target="#slide9" class="mt-10 btn cursor-pointer">Vê as subscrições disponíveis
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:w-[20%] pt-10 lg:pt-0">
+                    <img src="./img/slide2img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /slide2 -->
+
+
+
+    <!-- slide 3 -->
+    <section id="slide3" class="py-20 lg:py-28 ">
+        <div class="container">
+            <h3 class="text-center sectitle">O QUE É O EXA?
+            </h3>
+            <div class="grid items-end gap-10 mt-10 lg:mt-20 md:grid-cols-2 lg:grid-cols-4">
+                <div class="crd">
+                    <img src="./img/badgeclose.png" alt="" class="badge">
+                    <img class="icon" src="./img/icn1.png" />
+                    <p class="txt">Ter de imprimir os exames e correções
+                    </p>
+                </div>
+                <div class="crd">
+                    <img src="./img/badgeclose.png" alt="" class="badge">
+                    <img class="icon" src="./img/icn2.png" />
+                    <p class="txt">Ter de imprimir os exames e correções
+                    </p>
+                </div>
+                <div class="crd">
+                    <img src="./img/badgeclose.png" alt="" class="badge">
+                    <img class="icon" src="./img/icn3.png" />
+                    <p class="txt">Ter de imprimir os exames e correções
+                    </p>
+                </div>
+                <div>
+                    <img src="./img/crdtop.png" alt="" class="cdt">
+                    <div class="crd">
+                        <img src="./img/badgeopen.png" alt="" class="badge">
+                        <img class="icon" src="./img/icn4.png" />
+                        <p class="txt">Ter de imprimir os exames e correções
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-20 text-center">
+                <a href="#slide18" class="btn omg" style="--color:#272A6E">Experimenta uma semana grátis!
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- /slide3 -->
+
+    <!-- slide 4 -->
+    <section id="slide4" class="pb-20 lg:pb-28 scrollTo">
+        <div class="container">
+            <h3 class="text-center sectitle">O NOSSO OBJETIVO
+            </h3>
+            <div class="grid items-center gap-10 mt-10 lg:grid-cols-2">
+                <div class="lft">
+                    <h3 class="bigTtl">Ajudar-te a fazer Exames Nacionais anteriores <span>mais rápido.</span>
+                    </h3>
+                    <p class="mt-5 lg:text-xl">
+                        Controla o numero de exames que já fizeste, identifica os teus pontos fracos e planeia o teu
+                        estudo.
+
+
+                    </p>
+                    <p class="mt-5 lg:text-xl">
+                        A nota que precisas está à tua espera e com o EXA, estás um passo à frente!
+                    </p>
+                </div>
+                <div class="rght">
+                    <img src="./img/s4rght.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /slide4 -->
+
+    <!-- slide5 -->
+    <section id="slide5" class="scrollTo">
+        <div class="py-16 top lg:py-20">
+            <div class="container">
+                <h3 class="text-center sectitle">CONTEÚDOS</h3>
+                <p class="text-center bigTtl">
+                    Todos os eames à distância de um clique.
+
+                </p>
+            </div>
+        </div>
+        <div class="container py-16 lg:py-20">
+            <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
+                <div class="crd">
+                    <img src="./img/s5i1.png" alt="">
+                    <p class="ttl">Exames Nacionais de anos anteriores
+                    </p>
+                    <p class="des">Faz os exames live (e vê a correção) com tentativas ilimitadas.
+                    </p>
+                </div>
+                <div class="crd">
+                    <img src="./img/s5i2.png" alt="">
+                    <p class="ttl">Treina questões de escolha múltipla
+
+                    </p>
+                    <p class="des">Treina todas as escolhas múltiplas para que nenhuma te escape.
+
+                    </p>
+                </div>
+                <div class="crd">
+                    <img src="./img/spi3.png" alt="">
+                    <p class="ttl">Tracker de progresso
+
+                    </p>
+                    <p class="des">Garante que nenhum exame te escapa antes do teu dia!
+
+                    </p>
+                </div>
+                <div class="crd">
+                    <img src="./img/s5i4.png" alt="">
+                    <p class="ttl">Ativa o cronómetro
+
+                    </p>
+                    <p class="des">Ativa o cronómetro e vê quanto tempo demoras a fazer o exame.
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="mt-20 text-center">
+                <a href="#slide18" class="btn omg" style="--color:#272A6E">Experimenta uma semana grátis!
+
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- /slide5 -->
+
+    <!-- slide6 -->
+
+    <section id="slide6" class="py-20 lg:py-28 ">
+        <div class="container">
+            <h3 class="text-center sectitle">CONTEÚDOS
+            </h3>
+            <p class="text-center bigTtl">Disciplinas disponíveis no EXA.
+            </p>
+            <div class="grid items-end max-w-5xl gap-10 mx-auto mt-10 lg:mt-20 md:grid-cols-2 lg:grid-cols-4">
+                <div class="crd">
+                    <img src="./img/checkslide6.png" alt="" class="badge">
+                    <img class="icon" src="./img/Português.png" />
+                    <p class="txt">Português
+                    </p>
+                </div>
+                <div class="crd">
+                    <img src="./img/checkslide6.png" alt="" class="badge">
+                    <img class="icon" src="./img/Matemática A.png" />
+                    <p class="txt">Matemática A
+
+                    </p>
+                </div>
+                <div class="crd">
+                    <img src="./img/checkslide6.png" alt="" class="badge">
+                    <img class="icon" src="./img/História A.png" />
+                    <p class="txt">História A
+
+                    </p>
+                </div>
+
+                <div class="crd">
+                    <img src="./img/checkslide6.png" alt="" class="badge">
+                    <img class="icon" src="./img/Biologia e Geologia.png" />
+                    <p class="txt">Biologia e Geologia
+
+                    </p>
+                </div>
+                <div class="crd">
+                    <img src="./img/checkslide6.png" alt="" class="badge">
+                    <img class="icon" src="./img/Geografia.png" />
+                    <p class="txt">Geografia
+
+                    </p>
+                </div>
+                <div class="crd">
+                    <img src="./img/checkslide6.png" alt="" class="badge">
+                    <img class="icon" src="./img/Filosofia.png" />
+                    <p class="txt">Filosofia
+
+                    </p>
+                </div>
+                <div class="crd">
+                    <img src="./img/checkslide6.png" alt="" class="badge">
+                    <img class="icon" src="./img/Economia.png" />
+                    <p class="txt">Economia A
+                    </p>
+                </div>
+                <div class="crd">
+                    <img src="./img/checkslide6.png" alt="" class="badge">
+                    <img class="icon" src="./img/Economia A.png" />
+                    <p class="txt">Física e Química A
+                    </p>
+                </div>
+            </div>
+            <div class="mt-20 text-center">
+                <p class="bigTtl"><span>Todos os exames e correções disponíveis entre 2008 e 2022.</span>
+                </p>
+                <a href="#slide18" class="mt-10 btn omg" style="--color:#272A6E">Experimenta uma semana grátis!
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--/ slide6 -->
+
+
+    <!-- slide 7 -->
+    <section id="slide7" class="py-10 lg:py-18 ">
+        <div class="container">
+            <h3 class="text-center sectitle">CONTEÚDOS
+            </h3>
+            <p class="mt-2 text-center bigTtl">Brevemente.
+
+            </p>
+        </div>
+        <div class="container w-full max-w-full mt-10 lg:pl-0">
+
+            <div class="justify-start lg:flex">
+                <div class="hidden lg:block lg:w-[20%]">
+                    <img src="./img/sliderght.png" alt="">
+                </div>
+                <div class="w-full lft">
+                    <div class="grid items-center max-w-4xl gap-10 mx-auto text-center lg:grid-cols-2">
+                        <img src="./img/slide7ss.png" alt="">
+                        <div>
+                            <div class="flex items-start gap-10">
+                                <div>
+                                    <p class="bg"> Provas de Aferição</p>
+                                    <p class="sm">5º, 6º, 8º anos
+                                    </p>
+                                </div>
+                                <img src="./img/checkslide6.png" alt="">
+                            </div>
+                            <div class="flex items-start gap-10 mt-10">
+                                <div>
+                                    <p class="bg"> Provas finais </p>
+                                    <p class="sm">9º ano
+                                    </p>
+                                </div>
+                                <img src="./img/checkslide6.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- /slide7 -->
+
+
+
+
+    <!-- slide8 -->
+
+    <section id="slide8" class="pt-20 lg:pt-28 pb-36 lg:pb-52 scrollTo">
+        <div class="container">
+            <h3 class="text-center sectitle">TESTEMUNHOS
+            </h3>
+            <p class="text-center bigTtl">Junta-te a nós e dá-nos o teu feedback!
+            </p>
+            <div class="hidden text-end lg:block">
+                <img class="noice" src="./img/noice.png" alt="">
+            </div>
+            <div class="max-w-5xl mx-auto overflow-hidden reviewSlider">
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide crd">
+                        <div class="flex star">
+                            <img src="./img/staractive.png" alt="">
+                            <img src="./img/staractive.png" alt="">
+                            <img src="./img/staractive.png" alt="">
+                            <img src="./img/staractive.png" alt="">
+                            <img src="./img/staractive.png" alt="">
+                        </div>
+                        <p class="rating">Com papel e caneta demorava o triplo do tempo em cada exame. <span>O EXA é
+                                rápido!</span>
+                        </p>
+                        <div class="dtl">
+                            <p class="name">Pedro Martins
+                            </p>
+                            <p class="ttl">Estudante 11º ano</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide crd">
+                        <div class="flex star">
+                            <img src="./img/staractive.png" alt="">
+                            <img src="./img/staractive.png" alt="">
+                            <img src="./img/staractive.png" alt="">
+                            <img src="./img/staractive.png" alt="">
+                            <img src="./img/staractive.png" alt="">
+                        </div>
+                        <p class="rating">Ter as soluções a aparecer logo ajudou-me a<span> memorizar muito mais
+                                facilmente.</span>
+
+                        </p>
+                        <div class="dtl">
+                            <p class="name">Joana Silva
+                            </p>
+                            <p class="ttl">Estudante 11º ano</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide crd">
+                        <div class="flex star">
+                            <img src="./img/staractive.png" alt="">
+                            <img src="./img/staractive.png" alt="">
+                            <img src="./img/staractive.png" alt="">
+                            <img src="./img/staractive.png" alt="">
+                            <img src="./img/staractive.png" alt="">
+                        </div>
+                        <p class="rating">O modo exame é perfeito para treinar <span>quanto tempo demoro.</span> No modo
+                            treino até
+                            <span> respondo no carro!</span>
+
+                        </p>
+                        <div class="dtl">
+                            <p class="name">Rita Campos
+                            </p>
+                            <p class="ttl">Estudante 12º ano</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+
+
+            </div>
+
+        </div>
+        <img src="./img/btnshape.png" alt="" class="btnShape">
+    </section>
+
+
+
+    <!--/ slide8 -->
+
+
+
+    <!-- slide9 -->
+    <section id="slide9" class="py-18 lg:py-20 scrollTo">
+        <div class="container">
+            <h3 class="sectitle text-center !text-[#fff]">SUBSCRIÇÃO</h3>
+            <div class="grid max-w-6xl gap-20 px-5 mx-auto mt-10 lg:gap-10 lg:px-0 lg:grid-cols-3 lg:mt-20">
+                <div class="crd" style="--color:#00216E">
+                    <p class="ttl">Básico</p>
+                    <ul class="lists">
+                        <li>
+                            <img src="./img/checkslide6.png" alt="">
+                            1 Disciplina à tua escolha
+                        </li>
+                        <li class="disabled">
+                            <img src="./img/checkslide6.png" alt="">
+                            Todas as Disciplinas disponíveis
+
+                        </li>
+                        <li>
+                            <img src="./img/checkslide6.png" alt="">
+                            5 Exames à tua escolha
+
+                        </li>
+                        <li class="disabled">
+                            <img src="./img/checkslide6.png" alt="">
+                            Todos os exames disponíveis
+                        </li>
+                        <li>
+                            <img src="./img/checkslide6.png" alt="">
+                            Modo exame
+                        </li>
+                        <li class="disabled">
+                            <img src="./img/checkslide6.png" alt="">
+                            Treina escolhas múltiplas
+                        </li>
+                        <li class="disabled">
+                            <img src="./img/checkslide6.png" alt="">
+                            Tracker de progresso
+                        </li>
+
+                    </ul>
+                    <p class="oldPrice">7,99€/mês
+                    </p>
+                    <div class="text-center">
+                        <a href="#" class="crntPrice btn">4,99€/mês*
+                        </a>
+                    </div>
+                </div>
+                <div class="crd active" style="--color:#70AD47">
+                    <p class="ttl">Premium</p>
+                    <ul class="lists">
+                        <li>
+                            <img src="./img/checkslide6.png" alt="">
+                            2 Disciplinas à tua escolha
+
+                        </li>
+                        <li class="disabled">
+                            <img src="./img/checkslide6.png" alt="">
+                            Todas as Disciplinas disponíveis
+
+                        </li>
+                        <li>
+                            <img src="./img/checkslide6.png" alt="">
+                            20 Exames à tua escolha
+
+                        </li>
+
+                        <li>
+                            <img src="./img/checkslide6.png" alt="">
+                            Modo exame
+
+                        </li>
+                        <li class="">
+                            <img src="./img/checkslide6.png" alt="">
+                            Treina escolhas múltiplas
+
+                        </li>
+                        <li class="">
+                            <img src="./img/checkslide6.png" alt="">
+                            Tracker de progresso
+                        </li>
+
+                    </ul>
+                    <p class="oldPrice">19,99€/mês
+
+                    </p>
+                    <div class="text-center">
+                        <a href="#" class="crntPrice btn">14,99€/mês*
+
+                        </a>
+                    </div>
+                </div>
+
+                <div class="crd" style="--color:#00216E">
+                    <p class="ttl">Básico</p>
+                    <ul class="lists">
+                        <li>
+                            <img src="./img/checkslide6.png" alt="">
+                            1 Disciplina à tua escolha
+                        </li>
+                        <li class="disabled">
+                            <img src="./img/checkslide6.png" alt="">
+                            Todas as Disciplinas disponíveis
+
+                        </li>
+                        <li>
+                            <img src="./img/checkslide6.png" alt="">
+                            5 Exames à tua escolha
+
+                        </li>
+                        <li class="disabled">
+                            <img src="./img/checkslide6.png" alt="">
+                            Todos os exames disponíveis
+                        </li>
+                        <li>
+                            <img src="./img/checkslide6.png" alt="">
+                            Modo exame
+                        </li>
+                        <li class="disabled">
+                            <img src="./img/checkslide6.png" alt="">
+                            Treina escolhas múltiplas
+                        </li>
+                        <li class="disabled">
+                            <img src="./img/checkslide6.png" alt="">
+                            Tracker de progresso
+                        </li>
+
+                    </ul>
+                    <p class="oldPrice">7,99€/mês
+                    </p>
+                    <div class="text-center">
+                        <a href="#" class="crntPrice btn">4,99€/mês*
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-20 text-center lg:text-lg">*Oferta limitada aos primeiros 1,000 alunos a efetuar registo no EXA
+            </p>
+        </div>
+    </section>
+
+    <!-- /slide9 -->
+
+    <!-- slide10 -->
+    <section id="slide10" class="pb-18 lg:pb-20">
+        <div class="top py-18 lg:py-20 ">
+            <div class="container">
+                <h3 class="text-center bigTtl">
+                    <span class="!text-primary">
+                        Achas muito? Faz as contas!
+                    </span>
+                </h3>
+
+
+            </div>
+        </div>
+        <div class="container max-w-5xl py-18 lg:py-20 ">
+            <h3 class="bigTtl ">
+                <span class="!text-primary">
+                    Antes...
+                </span>
+            </h3>
+            <div class="grid gap-10 mx-auto mt-10 lg:grid-cols-3">
+                <div style="--color:#00216E" class="crd basic">
+
+                    <p class="des">
+                        5 Exames Nacionais com correção | 125 paginas |0,05€ cópia
+
+                    </p>
+                    <p class="price">7,50€
+
+                        <img src="./img/s1.png" alt="" class="shape">
+                </div>
+                <div style="--color:#00216E" class="crd basic">
+
+                    <p class="des">
+                        20 Exames Nacionais correção | 500 paginas |0,05€ cópia
+
+                    </p>
+                    <p class="price">25,00€
+
+
+                        <img src="./img/s2.png" alt="" class="shape">
+                </div>
+                <div style="--color:#00216E" class="crd basic">
+
+                    <p class="des">
+                        40 Exames Nacionais com correção | ~1000 paginas | 0,05€ cópia
+
+                    </p>
+                    <p class="price">50,00€
+
+
+                        <img src="./img/s3.png" alt="" class="shape">
+                </div>
+            </div>
+            <h3 class="bigTtl mt-14">
+                <span class="!text-primary">
+                    ...Agora!
+
+                </span>
+            </h3>
+            <div class="grid gap-10 mx-auto mt-10 lg:grid-cols-3">
+                <div style="--color:#00216E" class="crd basic">
+                    <p class="ttl">Básico</p>
+                    <p class="des">
+                        1 Disciplina | 5 exames
+                        1 Mês
+                    </p>
+                    <p class="oldPrice">7,99€/mês
+                    </p>
+                    <a href="#" class="curntPrice">4,99€/mês*
+                    </a>
+                </div>
+                <div style="--color:#70AD47" class="crd basic">
+                    <p class="ttl">Premium</p>
+                    <p class="des">
+                        2 Disciplinas | 20 exames | 1 Mês
+
+                    </p>
+                    <p class="oldPrice">14,99€/mês*
+
+
+                    </p>
+                    <a href="#" class="curntPrice">4,99€/mês*
+                    </a>
+                </div>
+                <div style="--color:#0155D1" class="crd basic">
+                    <p class="ttl">Ilimitado
+                    </p>
+                    <p class="des">
+                        Todas as Disciplinas | Todos os exames | 1 Mês
+
+                    </p>
+                    <p class="oldPrice">29,99€/mês
+
+                    </p>
+                    <a href="#" class="curntPrice">24,99€/mês*
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- slide10 -->
+
+    <!-- footer -->
+
+    <footer id="footer" class="pt-20 pb-0 lg:pt-28">
+        <div class="container">
+            <div class="grid items-center gap-5 lg:grid-cols-2 lg:gap-14">
+                <div class="lft ">
+                    <img src="./img/herolft.png" alt="">
+                </div>
+                <div class="rght lg:pt-10">
+                    <h3>
+                        Dá hoje o primeiro passo para te preparares para os Exames Nacionais!
+
+                    </h3>
+
+                    <div class="mt-20 text-center ">
+                        <a href="#" class="btn omg" style="--color:#00216E"><span>
+                                Experimenta <br> uma semana grátis!
+                            </span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="container">
+                <p class="copy">© Copyright 2023 EXA. Todos os direitos reservados.
+                </p>
+                <div class="grid mt-5 lg:grid-cols-2">
+                    <div class="links">
+                        <!-- put your link here -->
+                        <a href="#">Termos e condicoes </a>
+                        <a href="#">Política de privacidade </a>
+
+                    </div>
+                    <div class="links lg:justify-end">
+                        <!-- put your link here -->
+                        <a href="#">Facebook </a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Email</a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Loginfooter" class="hidden"></div>
+    </footer>
+    <!-- /footer -->
+
+    <script src="./js/app.bundle.js"></script>
+</body>
+
+</html>

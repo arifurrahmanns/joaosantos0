@@ -1,0 +1,24 @@
+{
+  "name": "joaosantos0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack build --config ./webpack.config.js --stats verbose",
+    "dev": "npx tailwindcss -i ./css/style.css -o ./css/style.min.css --watch",
+    "css_build": "npx tailwindcss -i ./css/style.css -o ./css/style.min.css --minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "active-menu-link": "^1.1.8",
+    "imask": "^6.4.3",
+    "swiper": "^9.0.4"
+  }
+}

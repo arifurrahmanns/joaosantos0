@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header id="header">
+        <div class="container">
+            <div class="flex items-center justify-between">
+                <!-- logo -->
+                <a href="./" class="logo">
+                    <img src="./img/logo.png" alt="site logo">
+                </a>
+
+            </div>
+        </div>
+    </header>
+    <!--/ header -->
+
+
+    <!-- form wrapper -->
+    <section id="FormWrp">
+        <!-- steps -->
+        <form action="">
+            <div class="steps">
+
+                <!-- step1 -->
+                <div id="step1" class="step active">
+                    <div class="grid  items-center  lg:grid-cols-2">
+                        <div class="p-10 py-20 lft lg:p-20 lg:py-36">
+                            <h3 class="ttl">
+                                Os teus dados pessoais
+                            </h3>
+                            <div class="formbox">
+
+                                <label>Nome</label>
+                                <input type="text" class="customInput">
+                                <label>PE-mail
+                                </label>
+                                <input type="email" class="customInput">
+                                <label>Palavra-passe
+                                </label>
+                                <input type="password" class="customInput">
+                                <label>Repete a tua palavra-passe
+                                </label>
+                                <input type="password" class="customInput">
+                                <div class="mt-10 text-center">
+                                    <button type="button" target="step2" class="btn nextBtn">
+                                        Continuar
+                                    </button>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="hidden p-20 lg:flex items-end py-20 lg:py-36  !pb-0 !pr-0 rght">
+                            <img class="w-full" src="./img/fstep1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!--step 2  -->
+
+                <div class="step" id="step2">
+                    <div class=" flex justify-center flex-col items-center">
+                        <div class="p-10 py-20 lft lg:p-20 lg:py-36">
+                            <h3 class="ttl">
+                                Escolhe o teu plano
+                            </h3>
+                            <div class="formboxlg">
+
+                                <div class="grid gap-10 mt-20 lg:gap-5 pkg lg:grid-cols-3">
+                                    <div style="--color:#00216E" class="crd basic">
+
+                                        <!-- input -->
+
+                                        <input type="radio" name="package" value="basic">
+                                        <p class="ttl">Básico</p>
+                                        <p class="des">
+                                            1 Disciplina | 5 exames
+                                            1 Mês
+                                        </p>
+                                        <p class="oldPrice">7,99€/mês
+                                        </p>
+                                        <a href="#" class="curntPrice">4,99€/mês*
+                                        </a>
+                                    </div>
+                                    <div style="--color:#70AD47" class="crd basic">
+                                        <!-- input -->
+
+                                        <input type="radio" name="package" value="premium">
+
+                                        <p class="ttl">Premium</p>
+                                        <p class="des">
+                                            2 Disciplinas | 20 exames | 1 Mês
+
+                                        </p>
+                                        <p class="oldPrice">14,99€/mês*
+
+
+                                        </p>
+                                        <a href="#" class="curntPrice">4,99€/mês*
+                                        </a>
+                                    </div>
+                                    <div style="--color:#0155D1" class="crd basic">
+                                        <!-- input -->
+                                        <input type="radio" name="package" value="ilimitado">
+                                        <p class="ttl">Ilimitado
+                                        </p>
+                                        <p class="des">
+                                            Todas as Disciplinas | Todos os exames | 1 Mês
+
+                                        </p>
+                                        <p class="oldPrice">29,99€/mês
+
+                                        </p>
+                                        <a href="#" class="curntPrice">24,99€/mês*
+
+                                        </a>
+                                    </div>
+                                </div>
+
+
+
+                                <!-- button -->
+
+                                <div class="mt-20 text-center">
+                                    <button type="button" target="step3" class="btn nextBtn">
+                                        Continuar
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- bottom -->
+                            <div class="btm mt-10 py-10 bg-[#DEEBF7]">
+                                <div class="container">
+                                    <div class="grid gap-5 lg:grid-cols-2">
+                                        <h4 class="text-2xl lg:text-4xl">Exames disponíveis no EXA
+                                        </h4>
+
+                                        <div class="grid gap-5 lg:grid-cols-2">
+                                            <div class="flex gap-5">
+                                                12º ano
+                                                <div class="list">
+                                                    <p><span>✓</span> Matemática A</p>
+                                                    <p><span>✓</span> Matemática A</p>
+                                                    <p><span>✓</span> História A
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="flex gap-5">
+                                                11º ano
+                                                <div class="list">
+                                                    <p><span>✓</span> Biologia e Geologia
+                                                    </p>
+                                                    <p><span>✓</span> Física e Química A
+                                                    </p>
+                                                    <p><span>✓</span> Economia A
+                                                    </p>
+                                                    <p><span>✓</span> Geografia A
+                                                    </p>
+                                                    <p><span>✓</span> Filosofia
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <!-- step 3 -->
+
+
+                <div class="step" id="step3">
+                    <div class="grid  items-center lg:grid-cols-2">
+                        <div class="p-10 py-20 lft lg:p-20 lg:py-36">
+                            <h3 class="ttl">
+                                Pagamento
+                            </h3>
+                            <div class="formbox">
+
+                                <label>Plano selecionado
+                                </label>
+                                <select name="" id="" class="customInput">
+                                    <option value="">Premium (14,99€/mês*) 2 disciplinas | 20 exames
+                                    </option>
+                                    <option value="">2</option>
+                                </select>
+                                <label>Número do cartão
+                                </label>
+                                <input type="text" class="customInput">
+                                <div class="grid grid-cols-2 gap-5 md:gap-10">
+                                    <div>
+                                        <label>Data de validade
+                                        </label>
+                                        <input type="text" class="customInput cardDate">
+                                    </div>
+                                    <div>
+                                        <label>CSV
+                                        </label>
+                                        <input type="text" class="customInput">
+                                    </div>
+                                </div>
+                                <label>Nome no cartão
+
+                                </label>
+                                <input type="text" class="customInput">
+                                <div class="mt-10 text-center">
+                                    <button type="submit" class="btn nextBtn">
+                                        Efetuar pagamento e criar conta
+                                    </button>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                        <div class="hidden p-20 lg:flex items-center py-20 lg:py-36   rght">
+                            <h3 class="ttl lg:!text-5xl !text-[#000] !text-left">
+                                …o último passo para te juntares ao EXA!
+
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer -->
+
+    <div id="Loginfooter" class="py-2">
+
+        <div class="bottom">
+            <div class="container">
+                <p class="copy">© Copyright 2023 EXA. Todos os direitos reservados.
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- /footer -->
+
+    <script src="./js/app.bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header id="header">
+        <div class="container">
+            <div class="flex items-center justify-between">
+                <!-- logo -->
+                <a href="./" class="logo">
+                    <img src="./img/logo.png" alt="site logo">
+                </a>
+
+            </div>
+        </div>
+    </header>
+    <!--/ header -->
+    <section id="FormWrp">
+        <form action="">
+
+            <div class="grid items-center lg:grid-cols-2">
+                <div class="p-10 py-20 lft lg:p-20 lg:py-36">
+                    <h3 class="ttl md:!text-4xl !text-[#000]">
+                        Os teus dados pessoais
+
+                    </h3>
+                    <div class="formbox">
+
+                        <label>Nome</label>
+                        <input type="text" class="customInput">
+                        <label>E-mail</label>
+                        <input type="email" class="customInput">
+                        <label>Palavra-passe
+                        </label>
+                        <input type="password" class="customInput">
+                        <label>Repete a tua palavra-passe
+                        </label>
+                        <input type="password" class="customInput">
+
+
+
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center p-5 py-5 lg:py-36 createAct rght">
+                    <h3 class="ttl md:!text-4xl !text-center !text-[#000]">
+                        Que disciplinas gostavas de experimentar
+
+
+                    </h3>
+
+                    <!-- form checkBox -->
+
+
+
+                    <div class="grid mt-10 grid-cols-2 lg:grid-cols-4 gap-5">
+                        <div class="customCheckbox">
+                            <!-- input -->
+                            <input checked type="checkbox" value="Português" name="county[]" id="">
+                            <img class="icon" src="./img/Português.png">
+                            <p class="txt">Português
+                            </p>
+                        </div>
+                        <div class="customCheckbox">
+                            <input type="checkbox" name="county[]" id="">
+
+                            <img class="icon" src="./img/Matemática A.png">
+                            <p class="txt">Matemática A
+
+                            </p>
+                        </div>
+                        <div class="customCheckbox">
+                            <input type="checkbox" name="county[]" id="">
+
+                            <img class="icon" src="./img/História A.png">
+                            <p class="txt">História A
+
+                            </p>
+                        </div>
+
+                        <div class="customCheckbox">
+                            <input type="checkbox" name="county[]" id="">
+
+                            <img class="icon" src="./img/Biologia e Geologia.png">
+                            <p class="txt">Biologia e Geologia
+
+                            </p>
+                        </div>
+                        <div class="customCheckbox">
+                            <input type="checkbox" name="county[]" id="">
+
+                            <img class="icon" src="./img/Geografia.png">
+                            <p class="txt">Geografia
+
+                            </p>
+                        </div>
+                        <div class="customCheckbox">
+                            <input type="checkbox" name="county[]" id="">
+
+                            <img class="icon" src="./img/Filosofia.png">
+                            <p class="txt">Filosofia
+
+                            </p>
+                        </div>
+                        <div class="customCheckbox">
+                            <input type="checkbox" name="county[]" id="">
+
+                            <img class="icon" src="./img/Economia.png">
+                            <p class="txt">Economia A
+                            </p>
+                        </div>
+                        <div class="customCheckbox">
+                            <input type="checkbox" name="county[]" id="">
+
+                            <img class="icon" src="./img/Economia A.png">
+                            <p class="txt">Física e Química A
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="mt-16 text-center">
+                        <button type="submit" class="btn">
+                            Criar conta
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+
+
+    <!-- footer -->
+
+    <footer id="Loginfooter" class="py-5">
+
+        <div class="bottom">
+            <div class="container">
+                <p class="copy">© Copyright 2023 EXA. Todos os direitos reservados.
+                </p>
+
+            </div>
+        </div>
+
+    </footer>
+    <!-- /footer -->
+
+    <script src="./js/app.bundle.js"></script>
+</body>
+
+</html>
